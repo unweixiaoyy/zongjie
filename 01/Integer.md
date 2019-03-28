@@ -1,5 +1,15 @@
 ### Integer
 
+##### Integer和int区别
+
+```java
+1.int是基本数据类型 Integer是封装类
+2.int的初始值是0，Integer是null.
+
+应用场景的区别：
+比如要体现出 考试成绩为0和缺考的区别的时候 用Integer可以 int不行
+比如用容器的时候 ，ArrayList等只能放对象，不能放基本数据类型。
+```
 
 ##### 比较Integer==int和Integer==Integer
 
